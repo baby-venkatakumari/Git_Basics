@@ -1,1 +1,18 @@
 What is Git ?
+Git is an open source and distributed version control system.
+
+Why Git ?
+It is mainly used when we work in a team collaboratively--COLLABORATE
+It takes snapshot when the existing repo is modified or something new is add to it--STORES VERSIONS
+It has local copies even if the central one crashes--BACK UP
+It analyzes the things like who committed what version and when the version was committed--ANALYZES
+
+What are the Version Control Tools ?
+Git
+Mercurial
+SVN(Sub version)
+CVS(Concurrent Version Control System)
+
+Git and Mercurial is similar because they both maintain a local copy 
+SVN and CVS, both works on centralised repository but don't maintain local copy
+
