@@ -1,0 +1,36 @@
+Creating repositories :
+git init is the command used to create a repository in the local
+git init --- to initiate a local repository which is .git
+
+
+Syncing repositories :
+git remote add origin "clone/download url"
+
+
+Making changes :
+git status
+git add
+git commit
+
+git status --- this is used to get all the files which are untracked i.e the files which are not added to index / which have been modified
+git add "File Name" --- this command is used to add the file which is added and modified to index/staging area
+git commit -m "Type in your message here" --- this is used to commit the changes to local repository
+
+git add -A -- adds all the files to staging area
+
+
+Branching :
+There are two types of branches : Local branch and Remote tracking branch
+
+git branch branchname -- used to create branch
+git checkout  destinationbranch -- used to switch to destination branch
+
+
+
+
+
+
+
+
+
+	
