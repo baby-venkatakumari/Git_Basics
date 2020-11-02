@@ -20,10 +20,19 @@ git add -A -- adds all the files to staging area
 
 
 Branching :
+--------------
+
 There are two types of branches : Local branch and Remote tracking branch
 
-git branch branchname -- used to create branch
-git checkout  destinationbranch -- used to switch to destination branch
+git branch branchname		used to create branch in the local repo
+git checkout  destinationbranch	used to switch to destination branch
+
+git branch			to see all the branches in the local repo
+git branch -r			to see all the remote branches
+git branch -a			to see all the branches both local and remote
+git branch -d branchname		to delete a branch in the local repo
+git branch -d -r branchname		to delete a branch in the remote repo
+git branch -m oldname newname	to rename a branch name
 
 
 
@@ -32,5 +41,12 @@ git checkout  destinationbranch -- used to switch to destination branch
 
 
 
+git merge branchtobemerged		used to merge all the changes from branchtobemerged to the branch that we are currently connected
+git rebase branchtobemerged		used to merge
 
-	
+Both merge and rebase do the same thing i.e merging but in different ways
+merge tries to add all the changes to master in a non linear format where as rebase in a linear format.
+Rebase adds the entire feature branch at the tip of the master i.e last commit of master branch
+Merging is preferrable when compared to rebasing.	
+
+
