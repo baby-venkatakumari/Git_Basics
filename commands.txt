@@ -14,9 +14,10 @@ git commit
 
 git status --- this is used to get all the files which are untracked i.e the files which are not added to index / which have been modified
 git add "File Name" --- this command is used to add the file which is added and modified to index/staging area
-git commit -m "Type in your message here" --- this is used to commit the changes to local repository
-
 git add -A -- adds all the files to staging area
+git commit -m "Type in your message here" --- this is used to commit the changes to local repository
+git commit -a -m "Type in your message here" --- this is used for both staging and commiting
+
 
 
 Branching :
@@ -34,7 +35,10 @@ git branch -d branchname		to delete a branch in the local repo
 git branch -d -r branchname		to delete a branch in the remote repo
 git branch -m oldname newname	to rename a branch name
 
+git push --- command to push
+git pull ----  command to pull
 
+git clone -b branchname   to_be_clonedURL    localDirectory
 
 
 
