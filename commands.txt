@@ -53,4 +53,4 @@ merge tries to add all the changes to master in a non linear format where as reb
 Rebase adds the entire feature branch at the tip of the master i.e last commit of master branch
 Merging is preferrable when compared to rebasing.	
 
-
+Performed git clone cloneurl and fetched the project from git
